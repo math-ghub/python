@@ -135,27 +135,27 @@
 # print(f"Temos {produtosAcima1000} produtos custando mais de R$1000")
 # print(f"O produto mais barato foi {produtoMaisBarato} que custa R${produtoMaisBaratoValor}")
 
-valorSacar = input("Que valor você quer sacar? R$")
-valoraSerEntregue = 0
+# valorSacar = input("Que valor você quer sacar? R$")
+# valoraSerEntregue = 0
 
-cedulasDisponiveis = [50,20,10,1]
-cedulasUtilizadas = {
-    50: 0,
-    20: 0,
-    10: 0,
-    1: 0
-}
+# cedulasDisponiveis = [50,20,10,1]
+# cedulasUtilizadas = {
+#     50: 0,
+#     20: 0,
+#     10: 0,
+#     1: 0
+# }
 
-while not valorSacar.isnumeric():
-    valorSacar = input("Que valor você quer sacar? R$")
+# while not valorSacar.isnumeric():
+#     valorSacar = input("Que valor você quer sacar? R$")
 
 
-for i in cedulasDisponiveis:
-    while valoraSerEntregue + i <= int(valorSacar):
-        valoraSerEntregue += i
-        cedulasUtilizadas[i] += 1
+# for i in cedulasDisponiveis:
+#     while valoraSerEntregue + i <= int(valorSacar):
+#         valoraSerEntregue += i
+#         cedulasUtilizadas[i] += 1
 
-for c in cedulasUtilizadas:
-    if cedulasUtilizadas[c] > 0:
-        print(f"Total de {cedulasUtilizadas[c]} cédulas de {c}")
-print(valoraSerEntregue)
+# for c in cedulasUtilizadas:
+#     if cedulasUtilizadas[c] > 0:
+#         print(f"Total de {cedulasUtilizadas[c]} cédulas de {c}")
+# print(valoraSerEntregue)
