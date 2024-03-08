@@ -22,3 +22,4 @@ ranking = {}
 
 ranking = sorted(jogadores.items(), key=lambda item: item[1],reverse=True)
 print(ranking)
+
