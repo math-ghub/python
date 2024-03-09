@@ -39,15 +39,15 @@
 # print(numeros)
 # somaPar()
 import pyautogui
-import PySimpleGUI
+from random import randint
 from time import sleep
 
-PySimpleGUI.AddMenuItem
-
-# for i in range(6):
-#     txt = str(i + 1)
-#     if i == 2 or i == 5:
-#         txt += " indiozinhos"
-#     pyautogui.typewrite(txt)
-#     pyautogui.hotkey("enter")
-#     sleep(0.1)
+sleep(2)
+palavras = ["sei","que","funciona","ontem","joao kkk","eita","hahaha naoo","chega","macumba","pereira","pirou","loucuras"]
+for i in range(15):
+    txt = ""
+    for x in range(randint(0,len(palavras) - 1)):
+        txt += " " + palavras[randint(0,len(palavras) - 1)]
+    pyautogui.typewrite(txt)
+    pyautogui.hotkey("enter")
+    sleep(0.1)
