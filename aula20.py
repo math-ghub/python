@@ -26,23 +26,28 @@
 
 # Maior(1,5,76,4)
 
-numeros = []
-from random import randint
+# numeros = []
+# from random import randint
 
-def sorteia():
-    for x in range(0,5):
-        numeros.append(randint(0,10))
-def somaPar():
-    soma = sum(x for x in numeros if x % 2 == 0)
-    print(soma)
-sorteia()
-print(numeros)
-somaPar()
-# import pyautogui
-# from time import sleep
+# def sorteia():
+#     for x in range(0,5):
+#         numeros.append(randint(0,10))
+# def somaPar():
+#     soma = sum(x for x in numeros if x % 2 == 0)
+#     print(soma)
+# sorteia()
+# print(numeros)
+# somaPar()
+import pyautogui
+import PySimpleGUI
+from time import sleep
 
-# sleep(5)
-# for i in range(5):
-#     pyautogui.typewrite("teste")
+PySimpleGUI.AddMenuItem
+
+# for i in range(6):
+#     txt = str(i + 1)
+#     if i == 2 or i == 5:
+#         txt += " indiozinhos"
+#     pyautogui.typewrite(txt)
 #     pyautogui.hotkey("enter")
 #     sleep(0.1)
