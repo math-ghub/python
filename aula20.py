@@ -44,7 +44,7 @@ from time import sleep
 
 sleep(2)
 palavras = ["sei","que","funciona","ontem","joao kkk","eita","hahaha naoo","chega","macumba","pereira","pirou","loucuras"]
-for i in range(15):
+for i in range(1):
     txt = ""
     for x in range(randint(0,len(palavras) - 1)):
         txt += " " + palavras[randint(0,len(palavras) - 1)]
