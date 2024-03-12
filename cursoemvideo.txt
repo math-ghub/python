@@ -1,0 +1,10 @@
+Opila;0
+Opila;0
+Opila;0
+mat;18
+jose;20
+pedro;28
+Irra;22
+Gabriel;16
+Karla;16
+Robson;37
